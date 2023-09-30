@@ -1,0 +1,17 @@
+.app {
+
+    /* Scrollbar Track */
+    ::-webkit-scrollbar-track {
+        background-color: red;
+    }
+
+    /* Scrollbar Thumb */
+    ::-webkit-scrollbar-thumb {
+        background-color: #888;
+    }
+
+    /* Optional: Add hover effect to scrollbar thumb */
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+}

@@ -6,20 +6,20 @@ const Navbar = () => {
   const [nav, setnav] = useState(false);
 
   return (
-    <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
+    <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 ">
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">Logo</h1>
       <ul className="hidden md:flex">
         <li className="p-4">
-          <Link to={"/"}>Home</Link>
+          <a href={"#home"}>Home</a>
         </li>
         <li className="p-4">
-          <Link to={"/about"}>About</Link>
+          <a href={"#about"}>About</a>
         </li>
         <li className="p-4">
-          <Link to={"/services"}>Services</Link>
+          <a href={"#services"}>Services</a>
         </li>
         <li className="p-4">
-          <Link to={"/contact"}>Contact</Link>
+          <a href={"#contact"}>Contact</a>
         </li>
       </ul>
       <div onClick={() => setnav(!nav)} className="block md:hidden">
@@ -34,17 +34,26 @@ const Navbar = () => {
       >
         <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">Logo</h1>
         <ul className="p-4 uppercase">
-          <li className="p-4 border-b border-gray-600">
-            <Link to={"/"}>Home</Link>
+          <li
+            className="p-4 border-b border-gray-600"
+            onClick={() => setnav(!nav)}
+          >
+            <a href={"#home"}>Home</a>
           </li>
-          <li className="p-4 border-b border-gray-600">
-            <Link to={"/about"}>About</Link>
+          <li
+            className="p-4 border-b border-gray-600"
+            onClick={() => setnav(!nav)}
+          >
+            <a href={"#about"}>About</a>
           </li>
-          <li className="p-4 border-b border-gray-600">
-            <Link to={"/services"}>Services</Link>
+          <li
+            className="p-4 border-b border-gray-600"
+            onClick={() => setnav(!nav)}
+          >
+            <a href={"#services"}>Services</a>
           </li>
-          <li className="p-4">
-            <Link to={"/contact"}>Contact</Link>
+          <li className="p-4" onClick={() => setnav(!nav)}>
+            <a href={"#contact"}>Contact</a>
           </li>
         </ul>
       </div>
