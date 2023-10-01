@@ -1,25 +1,20 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import "./components/Scrollbar.css";
+import Routess from "./routes/Routes";
 
 const App = () => {
   return (
-    <div className="overflow-hidden">
-      <Navbar />
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes> */}
-
-      <div className="app h-[80vh] overflow-x-hidden">
+    <div>
+      {/* <Navbar /> */}
+      <Routess />
+      {/* <div className="app lg:h-[80vh] sm:h-[87vh]ss:h-[87.5vh] xs:h-[87.5vh] h-[82.5vh] overflow-x-hidden pt-3">
         <section id="home">
           <Home />
         </section>
@@ -35,8 +30,8 @@ const App = () => {
         <section id="contact">
           <Contact />
         </section>
-      </div>
-      <Footer />
+      </div> */}
+      {/* <Footer /> */}
     </div>
   );
 };
