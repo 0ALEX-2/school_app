@@ -11,8 +11,8 @@ import Routess from "./routes/Routes";
 
 const App = () => {
   return (
-    <div className="">
-      {/* <Navbar /> */}
+    <div className="w-screen">
+      <Navbar />
       <Routess />
       {/* <div className="app lg:h-[80vh] sm:h-[87vh]ss:h-[87.5vh] xs:h-[87.5vh] h-[82.5vh] overflow-x-hidden pt-3">
         <section id="home">
@@ -31,7 +31,7 @@ const App = () => {
           <Contact />
         </section>
       </div> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

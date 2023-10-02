@@ -10,18 +10,18 @@ const Routess = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<DefaultLayout />}>
-          <Route path="/" element={<Home />} />
-        </Route>
-        <Route path="/about" element={<DefaultLayout />}>
-          <Route path="/about" element={<About />} />
-        </Route>
-        <Route path="/services" element={<DefaultLayout />}>
-          <Route path="/services" element={<Services />} />
-        </Route>
-        <Route path="/contact" element={<DefaultLayout />}>
-          <Route path="/contact" element={<Contact />} />
-        </Route>
+        {/* <Route path="/" element={<DefaultLayout />}> */}
+        <Route path="/" element={<Home />} />
+        {/* </Route> */}
+        {/* <Route path="/about" element={<DefaultLayout />}> */}
+        <Route path="/about" element={<About />} />
+        {/* </Route> */}
+        {/* <Route path="/services" element={<DefaultLayout />}> */}
+        <Route path="/services" element={<Services />} />
+        {/* </Route> */}
+        {/* <Route path="/contact" element={<DefaultLayout />}> */}
+        <Route path="/contact" element={<Contact />} />
+        {/* </Route> */}
       </Routes>
     </div>
   );

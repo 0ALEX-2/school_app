@@ -2,7 +2,7 @@ import React from "react";
 
 const UnderConstruction = () => {
   return (
-    <div className="bg-white min-h-[76vh] flex items-center justify-center overflow-y-auto">
+    <div className="bg-white min-h-[75.7vh] flex items-center justify-center overflow-y-auto">
       <div className="text-center">
         <h1 className="text-4xl font-semibold text-gray-800 mb-4">
           Website is Under Construction
