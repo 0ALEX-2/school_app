@@ -8,7 +8,7 @@ const Navbar = () => {
   const [nav, setnav] = useState(false);
 
   return (
-    <div className="border border-b-2 border-slate-400 h-24 shadow-2xl w-full bg-gradient-to-r from-[#f7d1b7] via-white to-green-200">
+    <div className="border border-b-2 border-slate-400 h-24 w-full bg-gradient-to-r from-[#f7d1b7] via-white to-green-200">
       <div className="text-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 ">
         {/* <h1 className="w-full text-3xl font-bold text-[#ee660c]">Logo</h1> */}
         <div className="flex gap-3 xs:gap-2 items-center">

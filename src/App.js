@@ -11,7 +11,7 @@ import Routess from "./routes/Routes";
 
 const App = () => {
   return (
-    <div>
+    <div className="">
       {/* <Navbar /> */}
       <Routess />
       {/* <div className="app lg:h-[80vh] sm:h-[87vh]ss:h-[87.5vh] xs:h-[87.5vh] h-[82.5vh] overflow-x-hidden pt-3">
